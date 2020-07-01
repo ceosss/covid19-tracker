@@ -16,22 +16,30 @@
   font-size: 18px;
 }
 
+.last-update p {
+  font-size: 15px;
+  color: #ced6e0;
+}
+
 .caption p {
   font-size: 15px;
+  color: #596275;
+  text-transform: uppercase;
+  padding: 0 15px;
 }
 
 .confirmed {
   border-bottom: 7px solid rgba(0, 0, 255, 0.5);
-  color: rgba(0, 0, 255, 0.8);
+  color: rgba(0, 0, 255, 0.7);
 }
 
 .recovered {
   border-bottom: 7px solid rgba(0, 255, 0, 0.5);
-  color: rgba(0, 255, 0, 0.8);
+  color: rgba(0, 255, 0, 0.7);
 }
 .deaths {
   border-bottom: 7px solid rgba(255, 0, 0, 0.5);
-  color: rgba(255, 0, 0, 0.8);
+  color: rgba(255, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 1000px) {

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+
 import Card from "./components/Card/Card.component.jsx";
 import URL from "./BaseURL";
 
@@ -8,13 +10,14 @@ function App() {
   const [data, setDate] = useState({});
   useEffect(() => {
     async function getData() {
-      const response = await (await fetch(`${URL}`)).json();
-      console.log(response);
+      const response = await axios.get(URL);
+      const data = response.data;
+
       setDate({
-        confirmed: response.confirmed.value,
-        recovered: response.recovered.value,
-        deaths: response.deaths.value,
-        lastUpdate: response.lastUpdate,
+        confirmed: data.confirmed.value,
+        recovered: data.recovered.value,
+        deaths: data.deaths.value,
+        lastUpdate: data.lastUpdate,
       });
     }
     getData();
