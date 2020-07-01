@@ -21,7 +21,7 @@ function App() {
   }, []);
   const Caption = {
     confirmed: "Number of Active Cases of COVID-19",
-    recovered: "Number of Receveries from COVID-19",
+    recovered: "Number of Recoveries from COVID-19",
     deaths: "Number of Deaths Caused by COVID-19",
   };
   return (
