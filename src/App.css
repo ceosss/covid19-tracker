@@ -24,3 +24,10 @@
     flex-direction: column;
   }
 }
+
+.chart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
