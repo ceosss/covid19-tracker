@@ -64,7 +64,7 @@ const Chart = ({ dailyData, countryData, country }) => {
 
   return (
     <div className="chart-holder">
-      <h1>VISUALISATION</h1>
+      <h1>VISUALIZATION</h1>
       {country !== "global" ? (
         <div className="bar-chart">{BarChart}</div>
       ) : (
