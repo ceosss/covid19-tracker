@@ -1,0 +1,17 @@
+.selector {
+}
+
+.selector select {
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: white;
+    text-align-last: center;
+}
+
+#select {
+    font-family: "Montserrat", sans-serif;
+}
