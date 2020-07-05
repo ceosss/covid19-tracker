@@ -116,6 +116,14 @@ function App() {
           country={data.currentCountry}
         />
       </div>
+      <div className="footer">
+        <p>
+          MADE WITH 🧡 by{" "}
+          <a href="https://www.instagram.com/ceo.sss/" target="blank">
+            ceo.sss
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
